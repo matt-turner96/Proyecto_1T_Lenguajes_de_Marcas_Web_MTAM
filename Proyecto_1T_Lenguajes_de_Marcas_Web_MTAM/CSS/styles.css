@@ -1,0 +1,16 @@
+#main-table {
+  
+  border-collapse: collapse;
+  width: 40%;
+  border: 0px;
+}
+
+
+
+
+Table {
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid black;
+}

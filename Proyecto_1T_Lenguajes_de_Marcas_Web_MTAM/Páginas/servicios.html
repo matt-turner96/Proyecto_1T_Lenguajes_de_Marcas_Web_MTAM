@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>  
+<html> 
+    <link rel="stylesheet" href="../CSS/styles.css"> 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,48 @@
 </head>
 <body>
     <!-- Add table of contents - Home, Reservation, About, Contact-->
-    <table>
+    <table id="main-table">
 
         <tr>
             <th><a href="index.html">Home</a></th>
             <th><a href="reservación.html">Reservation</a></th>
+            <th><a href="servicios.html">Servicios</a></th>
             <th><a href="equipo.html">Equipo</a></th>
             <th><a href="contacto.html">Contact</a></th>
         </tr>
+    </table>
+
+    <h2>Room Plans & Prices</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Plan</th>
+                <th>Precio por Noche</th>
+                <th>Desayuno</th>
+                <th>Wifi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Basico</td>
+                <td>€80</td>
+                <td>No</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Normal</td>
+                <td>€120</td>
+                <td>Yes</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Deluxe</td>
+                <td>€180</td>
+                <td>Yes</td>
+                <td>Yes</td>
+            </tr>
+        </tbody>
     </table>
 </body>
 </html>
