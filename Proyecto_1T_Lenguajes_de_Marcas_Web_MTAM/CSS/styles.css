@@ -17,16 +17,22 @@ h1, h2, label {
 
 p {
   font-family: Montserrat Light , sans-serif;
-  color: #6D835B;
-  text-align: center;
+  color: #c69681;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.p_equipo{
+  font-family: Montserrat Light , sans-serif;
+  color: #EFD063;
+  text-align: left;
   margin: 0 auto;
 }
 
 
-
 #main-table {
   font-family: Montserrat Light , sans-serif;
-  color: rgb(100, 249, 100)
+  color: #2f6f73;
   text-align: center;
   margin: 0 auto;
   border-collapse: collapse;
@@ -47,7 +53,48 @@ Table, {
   width: 100%;
 }
 
-th,td{padding:13px 14px;text-align:left;border-bottom:1px solid var(--line)}
+
+  th,td{padding:13px 14px;text-align:left;border-bottom:1px solid var(--line)}
     th{background:var(--surface-2);font-size:.88rem}
     tr:last-child td{border-bottom:0}
     .table-wrap{overflow:auto}
+
+    body {
+  font-family: Georgia, serif;
+  background: #f2f5f5;
+  color: #222;
+  margin: 0;
+}
+
+    .equipo {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+ 
+ 
+.cuadros {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+ 
+.persona {
+  background: white;
+  padding: 20px;
+  border-top: 4px solid #2f6f73;
+}
+ 
+.persona h3 {
+  margin: 0;
+}
+
+.h_equipo {
+  color: #2f6f73;
+}
+ 
+.puesto {
+  color: #2f6f73;
+  font-weight: bold;
+  margin: 4px 0 10px;
+}
