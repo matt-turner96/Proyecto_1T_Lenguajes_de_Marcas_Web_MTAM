@@ -1,33 +1,50 @@
-Header {
-<img src="../Img/Sketchers_Logo.png" alt="Sketchers Hotel" class="logo">
-  <h1 class="companyname">Sketchers Hotel</h1>
+header {
+  font-family: Montserrat Light , sans-serif;
+  color: #6D835B;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f2f2f2;
 }
 
-.companyname {
-  font-family: Brush Script MT, cursive;
-  font-size: 3;
-  font-weight: bold;
-  color: var(--text);
-  margin-bottom: 20px;
+h1, h2, label {
+  font-family: Cinzel Bold , sans-serif;
+  color: #6D835B;
+  text-align: center;
+  margin: 0 auto;
 }
+
+p {
+  font-family: Montserrat Light , sans-serif;
+  color: #6D835B;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
 
 #main-table {
-  font-family: Garamond , sans-serif;
+  font-family: Montserrat Light , sans-serif;
   color: rgb(100, 249, 100)
   text-align: center;
+  margin: 0 auto;
   border-collapse: collapse;
   width: 40%;
-  border: 0.5px solid rgb(100, 249, 100);
+  border: 0px;
 }
 
 
 
 
-Table {
+Table, {
+  font-family: Montserrat Light , sans-serif;
+  color: rgb(100, 249, 100)
   text-align: center;
   border-collapse: collapse;
   width: 100%;
   border: 1px solid black;
+  width: 100%;
 }
 
 th,td{padding:13px 14px;text-align:left;border-bottom:1px solid var(--line)}
