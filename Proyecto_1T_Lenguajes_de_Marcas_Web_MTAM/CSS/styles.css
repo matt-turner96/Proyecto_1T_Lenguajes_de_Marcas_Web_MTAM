@@ -1,8 +1,23 @@
+Header {
+<img src="../Img/Sketchers_Logo.png" alt="Sketchers Hotel" class="logo">
+  <h1 class="companyname">Sketchers Hotel</h1>
+}
+
+.companyname {
+  font-family: Brush Script MT, cursive;
+  font-size: 3;
+  font-weight: bold;
+  color: var(--text);
+  margin-bottom: 20px;
+}
+
 #main-table {
-  
+  font-family: Garamond , sans-serif;
+  color: rgb(100, 249, 100)
+  text-align: center;
   border-collapse: collapse;
   width: 40%;
-  border: 0px;
+  border: 0.5px solid rgb(100, 249, 100);
 }
 
 
@@ -14,3 +29,8 @@ Table {
   width: 100%;
   border: 1px solid black;
 }
+
+th,td{padding:13px 14px;text-align:left;border-bottom:1px solid var(--line)}
+    th{background:var(--surface-2);font-size:.88rem}
+    tr:last-child td{border-bottom:0}
+    .table-wrap{overflow:auto}
