@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Añade nombre de empresa hotel?</title>    
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+
+<header>
+    <img  height="150" width="500" src="../Img/Sketchers_Logo.png" alt="Sketchers Hotel" class="logo">
+    <!-- Add table of contents - Home, Reservation, About, Contact-->
+       <nav id="main-nav">
+
+        <a href="index.html">Inicio</a>
+        <a href="reservación.html">Reservar</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="equipo.html">Equipo</a>
+        <a href="contacto.html">Contacto</a>
+
+    </nav>
+</header><br><br>
+
+<br><br>
+
+<fieldset>
+        <legend>Contactanos</legend>
+    <form action="/submit" method="post">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        
+
+        <label for="intereses">Intereses:</label><br>
+        
+        <label for="interes1">Hotel</label>
+        <input type="checkbox" id="hotel" name="hotel" value="hotel">
+        
+        <label for="Gim">Servicios</label>
+        <input type="checkbox" id="gim" name="gim" value="gim">
+        
+        <label for="restaurante">Restaurante</label>
+        <input type="checkbox" id="restaurante" name="restaurante" value="restaurante"><br><br>
+
+        <label for="rating">¿Cómo ha sido tu experiencia hasta ahora?:</label><br><br>
+        <input type="radio" id="excelente" name="rating" value="excelente" required>
+        <label for="excelente">Excelente</label>
+        <input type="radio" id="buena" name="rating" value="buena">
+        <label for="buena">Buena</label>
+        <input type="radio" id="regular" name="rating" value="regular">
+        <label for="regular">Regular</label>
+        <input type="radio" id="mala" name="rating" value="mala">
+        <label for="mala">Mala</label>
+        <input type="radio" id="horrible" name="rating" value="horrible">
+        <label for="horrible">Horrible</label><br>
+        
+        <label for="message">Mensaje:</label><br>
+        <textarea id="message" name="message" rows="4" cols="200" required></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</fieldset><br><br>
+
+    <section class="info-contacto">
+    <h2>Información de contacto</h2>
+
+    <p>
+        Si tienes alguna pregunta o necesitas más información, no dudes en utilizar el formulario anterior.
+    </p>
+
+    <p>
+        📞 Teléfono: 123 456 789
+    </p>
+
+    <p>
+        📧 Correo: info@hotel.com
+    </p>
+
+    <p>
+        🕒 Horario de atención: Lunes a Viernes de 09:00 a 18:00.
+    </p>
+</section>
+</body>
+<footer>
+    <div class="footer-column">
+        <h3>Ponte en contacto</h3>
+        <a href="#">Contáctanos</a>
+        <a href="#">Preguntas frecuentes</a>
+        <a href="#">Reservas para grupos</a>
+        <a href="#">Afiliados</a>
+        <a href="#">Desarrollo internacional</a>
+        <a href="#">Carreras profesionales</a>
+    </div>
+
+    <div class="footer-column">
+        <h3>Legal</h3>
+        <a href="#">Términos y condiciones</a>
+        <a href="#">Condiciones de uso</a>
+        <a href="#">Política de privacidad</a>
+        <a href="#">Política de cookies</a>
+        <a href="#">Garantía de Buenas Noches</a>
+        <a href="#">Declaración sobre la Ley de Esclavitud Moderna</a>
+    </div>
+
+    <div class="footer-column">
+        <h3>Ubicaciones</h3>
+        <a href="#">Directorio de hoteles</a>
+        <a href="#">Nuevos hoteles</a>
+        <a href="#">Guías locales</a>
+        <a href="#">Escapadas cortas</a>
+        <a href="#">Hoteles en Alemania</a>
+        <a href="#">Dubái y más allá</a>
+    </div>
+
+    <div class="footer-column">
+        <h3>Nuestros hoteles</h3>
+        <a href="#">Nuestras habitaciones</a>
+        <a href="#">Ideal para familias</a>
+        <a href="#">Descanso</a>
+        <a href="#">Comida y bebida</a>
+        
+    </div>
+
+    <div class="footer-column">
+        <h3>Más información</h3>
+        <a href="#">Sobre nosotros</a>
+        <a href="#">Noticias</a>
+        <a href="#">Compromiso social</a>
+        <a href="#">Accesibilidad</a>
+    </div>
+
+    <div class="footer-column">
+        <h3>Otros servicios</h3>
+        <a href="#">Nuestras tarifas</a>
+        <a href="#">Ofertas</a>
+        <a href="#">Compra nuestra cama</a>
+        <a href="#">Aplicaciones móviles</a>
+        <a href="#">Nuestra diferencia</a>
+        <a href="#">Mapa del sitio</a>
+    </div>
+</footer>
+</html>

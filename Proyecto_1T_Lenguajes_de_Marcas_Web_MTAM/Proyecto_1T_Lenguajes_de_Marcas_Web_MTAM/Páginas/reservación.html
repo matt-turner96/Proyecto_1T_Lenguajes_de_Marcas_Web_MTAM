@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Sketchers Hotel</title>    
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+<header>
+    <img  height="150" width="500" src="../Img/Sketchers_Logo.png" alt="Sketchers Hotel" class="logo">
+    <!-- Add table of contents - Home, Reservation, About, Contact-->
+      <nav id="main-nav">
+
+        <a href="index.html">Inicio</a>
+        <a href="reservación.html">Reservar</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="equipo.html">Equipo</a>
+        <a href="contacto.html">Contacto</a>
+
+    </nav>
+</header>
+<br><br>
+<body>
+ 
+    <fieldset>
+        <legend>Reservar</legend>
+
+        <label for="nombre">Nombre(s):</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="Apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required><br><br>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required><br><br>
+
+        <label for="fecha-llegada">Fecha de llegada:</label>
+        <input type="date" id="fecha-llegada" name="fecha-llegada" required><br><br>
+
+        <label for="fecha-salida">Fecha de salida:</label>
+        <input type="date" id="fecha" name="fecha-salida" required><br><br>
+
+        <label for="noches">Número de noches:</label>
+        <input type="number" id="noches" name="noches" min="1" max="14" required><br><br>
+
+        <label for="extras">Extras:</label><br>
+        <input type="checkbox" id="desayuno" name="extras" value="desayuno">
+        <label for="desayuno">Desayuno</label>
+        <input type="checkbox" id="wifi" name="extras" value="wifi">
+        <label for="wifi">WiFi</label>
+        <input type="checkbox" id="gym" name="extras" value="gym">
+        <label for="gym">Gimnasio</label><br><br>
+        
+
+        <button type="submit">Enviar</button>
+    
+    </fieldset>
+
+    
+
+</body>
+<footer>
+    <div class="footer-column">
+        <h3>Ponte en contacto</h3>
+        <a href="#">Contáctanos</a>
+        <a href="#">Preguntas frecuentes</a>
+        <a href="#">Reservas para grupos</a>
+        <a href="#">Afiliados</a>
+        <a href="#">Desarrollo internacional</a>
+        <a href="#">Carreras profesionales</a>
+    </div>
+
+    <div class="footer-column">
+        <h3>Legal</h3>
+        <a href="#">Términos y condiciones</a>
+        <a href="#">Condiciones de uso</a>
+        <a href="#">Política de privacidad</a>
+        <a href="#">Política de cookies</a>
+        <a href="#">Garantía de Buenas Noches</a>
+        <a href="#">Declaración sobre la Ley de Esclavitud Moderna</a>
+    </div>
+
+    <div class="footer-column">
+        <h3>Ubicaciones</h3>
+        <a href="#">Directorio de hoteles</a>
+        <a href="#">Nuevos hoteles</a>
+        <a href="#">Guías locales</a>
+        <a href="#">Escapadas cortas</a>
+        <a href="#">Hoteles en Alemania</a>
+        <a href="#">Dubái y más allá</a>
+    </div>
+
+    <div class="footer-column">
+        <h3>Nuestros hoteles</h3>
+        <a href="#">Nuestras habitaciones</a>
+        <a href="#">Ideal para familias</a>
+        <a href="#">Descanso</a>
+        <a href="#">Comida y bebida</a>
+        
+    </div>
+
+    <div class="footer-column">
+        <h3>Más información</h3>
+        <a href="#">Sobre nosotros</a>
+        <a href="#">Noticias</a>
+        <a href="#">Compromiso social</a>
+        <a href="#">Accesibilidad</a>
+    </div>
+
+    <div class="footer-column">
+        <h3>Otros servicios</h3>
+        <a href="#">Nuestras tarifas</a>
+        <a href="#">Ofertas</a>
+        <a href="#">Compra nuestra cama</a>
+        <a href="#">Aplicaciones móviles</a>
+        <a href="#">Nuestra diferencia</a>
+        <a href="#">Mapa del sitio</a>
+    </div>
+</footer>
+</html>
