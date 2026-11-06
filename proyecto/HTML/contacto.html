@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Hotel Costa Azul</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo-link">
+            <img src="../Img/Sketchers_Logo.png" alt="Sketchers Hotel" class="logo">
+        </a>
+        <nav id="main-nav" aria-label="Navegación principal">
+            <a href="index.html">Inicio</a>
+            <a href="reservacion.html">Reservar</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="equipo.html">Equipo</a>
+            <a href="contacto.html" aria-current="page">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contáctanos</h1>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Escríbenos</legend>
+
+                <div class="campo">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name" autocomplete="name" required>
+                </div>
+
+                <div class="campo">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" autocomplete="email" required>
+                </div>
+
+                <fieldset class="grupo">
+                    <legend>Intereses</legend>
+                    <div class="opciones">
+                        <label class="opcion"><input type="checkbox" id="hotel" name="intereses" value="hotel"> Hotel</label>
+                        <label class="opcion"><input type="checkbox" id="servicios" name="intereses" value="servicios"> Servicios</label>
+                        <label class="opcion"><input type="checkbox" id="restaurante" name="intereses" value="restaurante"> Restaurante</label>
+                    </div>
+                </fieldset>
+
+                <fieldset class="grupo">
+                    <legend>¿Cómo ha sido tu experiencia hasta ahora?</legend>
+                    <div class="opciones">
+                        <label class="opcion"><input type="radio" id="excelente" name="rating" value="excelente" required> Excelente</label>
+                        <label class="opcion"><input type="radio" id="buena" name="rating" value="buena"> Buena</label>
+                        <label class="opcion"><input type="radio" id="regular" name="rating" value="regular"> Regular</label>
+                        <label class="opcion"><input type="radio" id="mala" name="rating" value="mala"> Mala</label>
+                        <label class="opcion"><input type="radio" id="horrible" name="rating" value="horrible"> Horrible</label>
+                    </div>
+                </fieldset>
+
+                <div class="campo">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="boton">Enviar mensaje</button>
+            </fieldset>
+        </form>
+
+        <section class="info-contacto">
+            <h2>Información de contacto</h2>
+            <p>Si tienes alguna pregunta o necesitas más información, no dudes en utilizar el formulario anterior.</p>
+            <p>📞 Teléfono: <a href="tel:+34123456789">123 456 789</a></p>
+            <p>📧 Correo: <a href="mailto:info@hotel.com">info@hotel.com</a></p>
+            <p>🕒 Horario de atención: lunes a viernes de 09:00 a 18:00.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-column">
+            <h3>Ponte en contacto</h3>
+            <a href="contacto.html">Contáctanos</a>
+            <a href="#">Preguntas frecuentes</a>
+            <a href="#">Reservas para grupos</a>
+            <a href="#">Carreras profesionales</a>
+        </div>
+        <div class="footer-column">
+            <h3>Legal</h3>
+            <a href="#">Términos y condiciones</a>
+            <a href="#">Condiciones de uso</a>
+            <a href="#">Política de privacidad</a>
+            <a href="#">Política de cookies</a>
+        </div>
+        <div class="footer-column">
+            <h3>Nuestro hotel</h3>
+            <a href="servicios.html">Habitaciones y tarifas</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="#">Comida y bebida</a>
+            <a href="#">Ideal para familias</a>
+        </div>
+        <div class="footer-column">
+            <h3>Más información</h3>
+            <a href="index.html#sobre-nosotros">Sobre nosotros</a>
+            <a href="equipo.html">Nuestro equipo</a>
+            <a href="#">Noticias</a>
+            <a href="#">Accesibilidad</a>
+        </div>
+        <div class="footer-column">
+            <h3>Reservas</h3>
+            <a href="reservacion.html">Reserva ahora</a>
+            <a href="#">Ofertas</a>
+            <a href="#">Mapa del sitio</a>
+        </div>
+    </footer>
+</body>
+</html>

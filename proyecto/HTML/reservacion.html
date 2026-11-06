@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservar | Hotel Costa Azul</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo-link">
+            <img src="../Img/Sketchers_Logo.png" alt="Sketchers Hotel" class="logo">
+        </a>
+        <nav id="main-nav" aria-label="Navegación principal">
+            <a href="index.html">Inicio</a>
+            <a href="reservacion.html" aria-current="page">Reservar</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="equipo.html">Equipo</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Reserva tu estancia</h1>
+        <form action="#" method="post" id="form-reserva">
+            <fieldset>
+                <legend>Datos de la reserva</legend>
+
+                <div class="campo">
+                    <label for="nombre">Nombre(s)</label>
+                    <input type="text" id="nombre" name="nombre" autocomplete="given-name" required>
+                </div>
+
+                <div class="campo">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido" name="apellido" autocomplete="family-name" required>
+                </div>
+
+                <div class="campo">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" autocomplete="email" required>
+                </div>
+
+                <div class="campo">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono" autocomplete="tel" required>
+                </div>
+
+                <div class="campo">
+                    <label for="fecha-llegada">Fecha de llegada</label>
+                    <input type="date" id="fecha-llegada" name="fecha-llegada" required>
+                </div>
+
+                <div class="campo">
+                    <label for="fecha-salida">Fecha de salida</label>
+                    <input type="date" id="fecha-salida" name="fecha-salida" required>
+                </div>
+
+                <div class="campo">
+                    <label for="noches">Número de noches</label>
+                    <input type="number" id="noches" name="noches" min="1" max="14" required>
+                    <small>Máximo 14 noches.</small>
+                </div>
+
+                <fieldset class="grupo">
+                    <legend>Extras</legend>
+                    <div class="opciones">
+                        <label class="opcion"><input type="checkbox" id="desayuno" name="extras" value="desayuno"> Desayuno</label>
+                        <label class="opcion"><input type="checkbox" id="wifi" name="extras" value="wifi"> Wi-Fi</label>
+                        <label class="opcion"><input type="checkbox" id="gym" name="extras" value="gym"> Gimnasio</label>
+                    </div>
+                </fieldset>
+
+                <button type="submit" class="boton">Enviar reserva</button>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-column">
+            <h3>Ponte en contacto</h3>
+            <a href="contacto.html">Contáctanos</a>
+            <a href="#">Preguntas frecuentes</a>
+            <a href="#">Reservas para grupos</a>
+            <a href="#">Carreras profesionales</a>
+        </div>
+        <div class="footer-column">
+            <h3>Legal</h3>
+            <a href="#">Términos y condiciones</a>
+            <a href="#">Condiciones de uso</a>
+            <a href="#">Política de privacidad</a>
+            <a href="#">Política de cookies</a>
+        </div>
+        <div class="footer-column">
+            <h3>Nuestro hotel</h3>
+            <a href="servicios.html">Habitaciones y tarifas</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="#">Comida y bebida</a>
+            <a href="#">Ideal para familias</a>
+        </div>
+        <div class="footer-column">
+            <h3>Más información</h3>
+            <a href="index.html#sobre-nosotros">Sobre nosotros</a>
+            <a href="equipo.html">Nuestro equipo</a>
+            <a href="#">Noticias</a>
+            <a href="#">Accesibilidad</a>
+        </div>
+        <div class="footer-column">
+            <h3>Reservas</h3>
+            <a href="reservacion.html">Reserva ahora</a>
+            <a href="#">Ofertas</a>
+            <a href="#">Mapa del sitio</a>
+        </div>
+    </footer>
+</body>
+</html>
